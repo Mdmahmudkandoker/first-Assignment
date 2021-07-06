@@ -1,0 +1,154 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 45px;
+    color: rgb(85, 83, 83);
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: black;
+    font-size: .8rem;
+}
+.color-orange{
+    color: orange;
+}
+/* Navbar starts */
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #333;
+}
+.navbar-menu h1{
+    margin: 0;
+}
+
+.navbar-menu ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu ul li a{
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;   
+}
+/* Navbar ends */
+
+
+
+.first-section{
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    
+}
+.first-section p{
+    color: dimgray;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 50px;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, red);
+    padding: 10px 24px;
+    color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/* second section */
+.second-section{
+    display: flex;
+    background-image: url(images/7.png);
+    background-size: 100% 100%;
+   background-repeat: no-repeat;
+   align-items: center;
+}
+.img{
+    margin-bottom: -6px;
+}
+
+/* second section ends */
+
+/* 3rd section starts */
+.food-review{
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+}
+#my-recipies{
+    text-align: center;
+    margin-bottom: 50px;
+   padding: 0 20%;
+}
+.food-review1{
+    width: 20%;
+    padding: 1.5%;
+    margin: 0 5% 0 5%;
+   
+}
+.food-review1{
+    box-shadow: 0px 0px 10px 1px #888;
+    border-radius: 15px;
+}
+
+.food-review1 img{
+    width: 100%;
+}
+/* 3rd section ends */
+
+/* 4th section starts */
+.social-media{
+    margin: 10%;
+    padding: 2% 5%;
+    display: flex;
+    box-shadow: 5px 7px 40px #888;
+    border-radius: 15px;
+}
+.Followers{
+    width: 33.333%;
+    padding: 0 10%;
+}
+.Followers h1{
+    color: black;
+    margin-bottom: 0;
+}
+/* 4th section ends */
+
+/* footer starts */
+.foot{
+    background: #000;
+    text-align: center;
+    padding: 1% 0 5% 0;
+}
+.foot h2{
+    color: gray;
+}
+
+.foot p{
+    color: white;
+    font-size: .8rem;
+}
+
+
+/* footer ends */
